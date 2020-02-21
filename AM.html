@@ -1,0 +1,23 @@
+    <!DOCTYPE html>
+    <html>
+        <body>
+            <script lang="javascript">
+    
+    var promedio =0;
+    var suma=0;
+    var cont =1;
+
+    var n = prompt("Total de alumnos ");
+    n =Number(n);
+
+    do{
+        var edad =prompt("Escriba su edad ");
+        edad = Number(edad);
+        suma = suma + edad;
+        cont++;
+    } while(cont <= n)
+    promedio = suma /n;
+    document.write("El promedio de las " + n + " edades es " + promedio);
+    </script>
+    </body>
+    </html>
